@@ -1,0 +1,54 @@
+
+#contentor_grelha{
+
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+
+    background-color: lightgrey;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    grid-column-gap: 2.8%;
+}
+
+
+img{
+    display: block;
+    width: 100%;
+}
+
+
+#grande{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+#descricao{
+    grid-column-start: 4;
+    grid-column-end: 7; 
+}
+
+#destaque{
+    text-align: center;
+    grid-column: 2/6;
+}
+
+.galeria{
+    text-align: center;
+    grid-column: span 2;
+}
+
+
+@media (max-width: 800px){
+
+    #contentor_grelha {
+        display: block;
+        width: 95%;
+    }
+    
+    
+}
