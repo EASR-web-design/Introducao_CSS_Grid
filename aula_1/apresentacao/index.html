@@ -1,40 +1,161 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>CSS Grid</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>CSS Grid</h1>
+			</section>
+
+
+			<section>
+				<h2>objectivos</h2>
+				<p>papel do CSS Grid em layouts em CSS;</p>
+				<p>regras essenciais do CSS Grid;</p>
+				<p>principais vantagens</p>
+			</section>
+
+			<section>
+				<h2>CSS Grid</h2>
+				<p>porquê?</p>
+				<p>como?</p>
+				<p>vantagens?</p>
+			</section>
+
+			<section>
+				<h2>porquê</h2>
+				<p>processo de design</p>
+				<p>processo de codificação</p>
+			</section>
+
+			<section>
+				<h2>processo de design</h2>
+			</section>
+
+			<section>
+				<img src="imagens_apresenta/wireframe_homepage.jpg" alt="wireframe">
+			</section>
+
+			<section>
+				<img src="imagens_apresenta/wireframe_orquestra.jpg" alt="wireframe">
+			</section>
+
+			<section>
+				<img src="imagens_apresenta/exemplificação.jpg" alt="detalhe">
+			</section>
+
+			<section>
+				<img src="imagens_apresenta/home_v1_1.jpg" alt="detalhe">
+			</section>
+
+			<section>
+				<img src="imagens_apresenta/home_v1_1.jpg"" alt=" detalhe">
+			</section>
+
+			<section>
+				<h2>processo de design</h2>
+				<p>esboços</p>
+				<p>definição da grelha (janela do browser)</p>
+				<ul>
+					<li>definição de áreas e colunas</li>
+					<li>header/footer/conteúdo</li>
+				</ul>
+				<p>inserir conteúdo</p>
+			</section>
+
+			<section>
+				<h2>como?</h2>
+			</section>
+
+			<section>
+				<h2>notas</h2>
+				<p>utilizaremos algumas das propriedades</p>
+				<p>não vamos definir linhas (rows) - automáticas</p>
+				<p>apenas definição de colunas (nesta fase)</p>
+			</section>
+
+			<section>
+				<h2>conceitos</h2>
+				<img src="imagens_apresenta/grid_columns.png" alt="">
+			</section>
+
+			<section>
+				<img src="imagens_apresenta/grid_rows.png" alt="">
+			</section>
+
+			<section>
+				<img src="imagens_apresenta/grid_gaps.png" alt="">
+			</section>
+
+			<section>
+				<img src="imagens_apresenta/grid_lines.png" alt="">
+			</section>
+
+			<section>
+				<h2>GRID vs Flexbox</h2>
+				<p>Grid: duas dimensões (linhas e colunas)</p>
+				<p>Flexbox: uma dimensão</p>
+			</section>
+
+			<section>
+				<img src="imagens_apresenta/flexbox_vs_grid.png" alt="flex vs grid">
+			</section>
+
+			<section>
+				<h2>recursos</h2>
+				<p><a href="https://labs.jensimmons.com/">https://labs.jensimmons.com/</a></p>
+				<p><a href="https://cssgridgarden.com/">https://cssgridgarden.com/</a></p>
+				<p><a href="https://cssgridgarden.com/">https://cssgridgarden.com/</a></p>
+				<h3>vídeos</h3>
+				<p><a href="https://youtu.be/br-0i3U1VCA">Grid Basics</a></p>
+				<p><a href="https://youtu.be/hKXOVD2Yrj8">CSS Grid Layout (pt)</a></p>
+			</section>
+
+			<section>
+				<h2>recursos</h2>
+				<p><a
+						href="https://css-tricks.com/snippets/css/complete-guide-grid/">https://css-tricks.com/snippets/css/complete-guide-grid/</a>
+				</p>
+				<p><a href="https://www.w3schools.com/css/css_grid.asp">https://www.w3schools.com/css/css_grid.asp</a>
+				</p>
+				<p><a
+						href="https://developer.mozilla.org/pt-PT/docs/Web/CSS/layout_de_grelha_">https://developer.mozilla.org/pt-PT/docs/Web/CSS/layout_de_grelha_</a>
+				</p>
+			</section>
+
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
