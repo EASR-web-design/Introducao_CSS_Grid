@@ -13,7 +13,7 @@ NOTA: este repositório foi desenvolvido no âmbito de uma formação em Git/Git
 
 ## AULA 1 - Introdução ao CSS Grid
 
-### Enquadramento (25min)
+### Enquadramento (duração estimada: 25min)
 Através de um diálogo com os alunos e complementado com uma apresentação a aula inicia-se por:
 
 1. Breve enquadramento dos projetos 1 e 2 deste período: objetivos de cada um.
