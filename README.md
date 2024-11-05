@@ -14,18 +14,23 @@ NOTA: este repositório foi desenvolvido no âmbito de uma formação em Git/Git
 ## AULA 1 - Introdução ao CSS Grid
 
 ### Enquadramento (duração estimada: 25min)
+
 Através de um diálogo com os alunos e complementado com uma apresentação a aula inicia-se por:
 
 1. Breve enquadramento dos projetos 1 e 2 deste período: objetivos de cada um.
 2. Análise com os alunos acerca das dificuldades sentidas no projeto anterior em termos de codificação em HTML e CSS. 3. Enquadramento acerca da introdução desta técnica no 2o projeto.
 4. Porque surge o CSS Grid?
 - análise do processo de design e de codificação (com ênfase na proposta anterior) 
-- demonstração com o software de desenho de layouts (Adobe Illustrator)
+- demonstração com o software de desenho de layouts (Figma ou Adobe Illustrator)
 
 ### Introdução ao CSS Grid (50min)
-Recorrendo a projeção, realiza-se uma explicação e demonstração das regras essenciais do CSS Grid. Os alunos acompanham a apresentação e experimentam nos seus computadores, sendo solicitada a intervenção dos alunos na descoberta das soluções a aplicar. 
+
+Recorrendo uma apresentação, realiza-se uma explicação e demonstração das regras essenciais do CSS Grid. Os alunos acompanham a apresentação e experimentam nos seus computadores, sendo solicitada a intervenção dos alunos na descoberta das soluções a aplicar. 
+
+Ver [apresentacao](aula_1/apresentacao/index.html)
 
 No final produzem uma pequena página web contendo algumas situações típicas da sua utilização.
+
 
 
 ## AULA 2 - Exercício de aplicação
