@@ -32,6 +32,7 @@ Ver [apresentação](aula_1/apresentacao/index.html)
 No final produzem uma pequena página web contendo algumas situações típicas da sua utilização.
 
 Demonstração: [Ficheiros](aula_1/exercicio_demo_alunos.zip) base para os alunos 
+
 Demonstração: [Resultado final](aula_1/exercicio_demo_final_prof/)
 
 
@@ -45,6 +46,16 @@ https://cssgridgarden.com/
 
 
 ### Exercício de aplicação dos conhecimentos (60min)
-1. Apresentação do layout do modelo a desenvolver;
+#### 1. Apresentação do layout do modelo a desenvolver;
+
+Pretende-se desenvolver um layout equivalente ao seguinte:
+
+![layout a desenvolver](aula_2/apresentacao/imagens_apresenta/layout_final.png){width=300 height=200}
+
 2. Análise com os alunos dos aspetos-chave do modelo;
+
 3. Construção de uma página web a partir dos ficheiros disponibilizados pelo professor.
+
+[Ficheiros base para o exercício](aula_2/exercicio_aplicacao_alunos.zip) base para os alunos 
+
+[Resultado final](aula_2/exercicio_aplicacao_versao_final_prof/)
