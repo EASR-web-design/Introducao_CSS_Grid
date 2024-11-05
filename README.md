@@ -27,9 +27,12 @@ Através de um diálogo com os alunos e complementado com uma apresentação a a
 
 Recorrendo uma apresentação, realiza-se uma explicação e demonstração das regras essenciais do CSS Grid. Os alunos acompanham a apresentação e experimentam nos seus computadores, sendo solicitada a intervenção dos alunos na descoberta das soluções a aplicar. 
 
-Ver [apresentacao](aula_1/apresentacao/index.html)
+Ver [apresentação](aula_1/apresentacao/index.html)
 
 No final produzem uma pequena página web contendo algumas situações típicas da sua utilização.
+
+Demonstração: [Ficheiros](aula_1/exercicio_demo_alunos.zip) base para os alunos 
+Demonstração: [Resultado final](aula_1/exercicio_demo_final_prof/)
 
 
 
