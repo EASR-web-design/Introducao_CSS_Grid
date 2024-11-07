@@ -53,7 +53,7 @@ Pretende-se desenvolver um layout equivalente ao seguinte:
 ![layout a desenvolver](aula_2/apresentacao/imagens_apresenta/layout_final.png)
 
 
-[Ficheiros base para o exercício](aula_2/exercicio_aplicacao_alunos.zip) base para os alunos 
+[Ficheiros base para o exercício](aula_2/exercicio_aplicacao_alunos/) base para os alunos 
 
 [Resultado final](aula_2/exercicio_aplicacao_versao_final_prof/)
 
